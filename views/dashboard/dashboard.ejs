@@ -1,0 +1,167 @@
+<!-- STYLES -->
+
+<!-- General Style -->
+<%- include('../layouts/styles') -%>
+
+    <!-- Custom style for only this page starts -->
+    <link href="../public/vendor/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
+    <!-- Custom style for only this page ends -->
+
+    </head>
+
+    <body>
+
+        <!-- Preloader start -->
+        <%- include('../layouts/preloader') -%>
+
+            <!-- Main wrapper start -->
+            <div id="main-wrapper">
+
+                <!-- Nav header start -->
+                <%- include('../layouts/nav-header') -%>
+
+                    <!-- Sidebar start -->
+                    <%- include('../layouts/sidebar') -%>
+
+                        <!-- Content body start -->
+                        <div class="content-body">
+                            <div class="container-fluid">
+                                <!-- Page content starts -->
+
+                                <!-- Cards -->
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6">
+                                        <div class="card">
+                                            <div class="stat-widget-two card-body">
+                                                <div class="stat-content">
+                                                    <div class="stat-text">Jobs</div>
+                                                    <div class="stat-digit">500</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6">
+                                        <div class="card">
+                                            <div class="stat-widget-two card-body">
+                                                <div class="stat-content">
+                                                    <div class="stat-text">New Jobs</div>
+                                                    <div class="stat-digit">203</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6">
+                                        <div class="card">
+                                            <div class="stat-widget-two card-body">
+                                                <div class="stat-content">
+                                                    <div class="stat-text">Categories</div>
+                                                    <div class="stat-digit">17</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6">
+                                        <div class="card">
+                                            <div class="stat-widget-two card-body">
+                                                <div class="stat-content">
+                                                    <div class="stat-text">Users</div>
+                                                    <div class="stat-digit">152</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Statistics -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h4 class="card-title">Latest Jobs</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table style="color: #404040;" class="table student-data-table m-t-20">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Job Title</th>
+                                                                <th>Category</th>
+                                                                <th>Description</th>
+                                                                <th>End Date</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>QuickBooks, Strategic Procurement Management</td>
+                                                                <td>Accounting</td>
+                                                                <td>Description file</td>
+                                                                <td>Nov 20, 2021</td>
+                                                                <td>
+                                                                    <button class="btn btn-success">Apply</button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Communications Consultant (Mercy Corps Liberia)</td>
+                                                                <td>Communication</td>
+                                                                <td>Description file</td>
+                                                                <td>Nov 14, 2021</td>
+                                                                <td>
+                                                                    <button class="btn btn-success">Apply</button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Strategic Procurement Management</td>
+                                                                <td>Accounting</td>
+                                                                <td>Description file</td>
+                                                                <td>20/04/2017</td>
+                                                                <td>
+                                                                    <button class="btn btn-success">Apply</button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>USAID-NATHAN-LEPDA-RFA-2021-10-19-06</td>
+                                                                <td>Communication</td>
+                                                                <td>Description file</td>
+                                                                <td>Nov 10, 2021</td>
+                                                                <td>
+                                                                    <button class="btn btn-success">Apply</button>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Page content ends -->
+                            </div>
+                        </div>
+                        <!-- Content body end -->
+
+
+                        <!-- Footer start -->
+                        <%- include('../layouts/footer') -%>
+            </div>
+            <!-- Main wrapper end -->
+
+            <!-- SCRIPTS -->
+
+            <!-- General Script -->
+            <%- include('../layouts/scripts') -%>
+
+                <!-- Custom script for only this page starts -->
+                <script src="../public/vendor/jqueryui/js/jquery-ui.min.js"></script>
+                <script src="../public/vendor/moment/moment.min.js"></script>
+
+                <script src="../public/vendor/fullcalendar/js/fullcalendar.min.js"></script>
+                <script src="../public/js/plugins-init/fullcalendar-init.js"></script>
+                <!-- Custom script for only this page ends -->
+
+
+
+    </body>
+
+    </html>

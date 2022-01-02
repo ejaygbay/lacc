@@ -1,0 +1,7 @@
+table{
+    color: #404040;
+}
+
+.table .student-data-table table{
+    color: #404040 !important;
+}

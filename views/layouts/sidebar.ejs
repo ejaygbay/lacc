@@ -1,0 +1,37 @@
+<div class="quixnav">
+    <div class="quixnav-scroll">
+        <ul class="metismenu" id="menu">
+            <li class="nav-label first">Main Menu</li>
+            <!-- <li><a href="index.html"><i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+    </li> -->
+
+            <li class="<% if(page === 'dashboard'){ %>mm-active<% } %>">
+                <a href="/" aria-expanded="false">
+                    <i class="fa fa-tachometer"></i>
+                    <span class="nav-text">Dashboard</span>
+                </a>
+            </li>
+
+            <li class="<% if(page === 'personal-jobs' || page === 'create-job'){ %>mm-active<% } %>">
+                <a href="/jobs/personal" aria-expanded="false">
+                    <i class="fa fa-book"></i>
+                    <span class="nav-text">Your Jobs</span>
+                </a>
+            </li>
+
+            <li class="<% if(page === 'all-jobs'){ %>mm-active<% } %>">
+                <a href="/jobs" aria-expanded="false">
+                    <i class="fa fa-hand-pointer-o"></i>
+                    <span class="nav-text">Other Jobs</span>
+                </a>
+            </li>
+
+            <li class="<% if(page === 'category'){ %>mm-active<% } %>">
+                <a href="/category" aria-expanded="false">
+                    <i class="fa fa-list"></i>
+                    <span class="nav-text">Category</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

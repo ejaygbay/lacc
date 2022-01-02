@@ -1,0 +1,94 @@
+<!-- STYLES -->
+
+<!-- General Style -->
+<%- include('../layouts/styles') -%>
+
+    <!-- Custom style for only this page starts -->
+
+    <!-- Custom style for only this page ends -->
+    </head>
+
+    <body>
+
+        <!-- Preloader start -->
+        <%- include('../layouts/preloader') -%>
+
+
+            <!-- Main wrapper start -->
+            <div id="main-wrapper">
+
+                <!-- Nav header start -->
+                <%- include('../layouts/nav-header') -%>
+
+                    <!-- Sidebar start -->
+                    <%- include('../layouts/sidebar') -%>
+
+                        <!-- Content body start -->
+                        <div class="content-body">
+                            <div class="container-fluid">
+                                <!-- Page content starts -->
+                                <h3>Create Category</h3>
+
+                                <div class="card">
+                                    <div class="card-header"></div>
+                                    <div class="card-body">
+                                        <div class="basic-form">
+                                            <form class="form-inline">
+                                                <div class="form-group mx-sm-3 mb-2">
+                                                    <label class="sr-only">Category Name</label>
+                                                    <input type="text" class="form-control" placeholder="Category Name">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary mb-2">Add Category</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <table style="color: #404040;" class="table student-data-table m-t-20">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Category</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>Accounting</td>
+                                            <td>
+                                                <button class="action-btn edit btn outline btn-outline-primary btn-floating">
+                                                    <i class="edit fa fa-pencil"></i>
+                                                </button>
+                                                <button type="button" class="action-btn delete btn btn-outline-danger btn-floating">
+                                                    <i class="delete fa fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <!-- Page content ends -->
+                            </div>
+                        </div>
+                        <!-- Content body end -->
+
+
+                        <!-- Footer start -->
+                        <%- include('../layouts/footer') -%>
+            </div>
+            <!-- Main wrapper end -->
+
+
+            <!-- SCRIPTS -->
+
+            <!-- General Script -->
+            <%- include('../layouts/scripts') -%>
+
+                <!-- Custom script for only this page starts -->
+
+                <!-- Custom script for only this page ends -->
+
+    </body>
+
+    </html>
