@@ -1,5 +1,5 @@
 {
-    "name": "job-crossroad-portal",
+    "name": "lacc",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -19,12 +19,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ejaygbay/job-crossroad-portal.git"
+        "url": "git+https://github.com/ejaygbay/lacc.git"
     },
     "author": "Emmanuel Jaygbay",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ejaygbay/job-crossroad-portal/issues"
+        "url": "https://github.com/ejaygbay/lacc/issues"
     },
-    "homepage": "https://github.com/ejaygbay/job-crossroad-portal#readme"
+    "homepage": "https://github.com/ejaygbay/lacc#readme"
 }
