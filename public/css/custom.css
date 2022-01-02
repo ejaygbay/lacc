@@ -5,3 +5,14 @@ table{
 .table .student-data-table table{
     color: #404040 !important;
 }
+
+.nav-header .brand-title{
+    max-width: 200px;
+    height: 45px;
+    margin-left: 0px;
+}
+
+.nav-header .logo-abbr{
+    height: 45px;
+    max-width: 90%;
+}
